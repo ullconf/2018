@@ -1,6 +1,6 @@
 const plugins = [
   { src: "~plugins/velocity.js", ssr: false },
-  { src: "~plugins/fontawesome.js", ssr: false }
+  { src: "~plugins/fontawesome.js" }
 ];
 
 // if (process.env.NODE_ENV != "production") {
