@@ -5,7 +5,7 @@
     v-on:leave="leave"
     v-bind:css="false"
   >
-    <div>
+    <div :class="{'d-none': !ready}">
       <h1 class="title">
         Teach Úll
       </h1>
@@ -29,9 +29,15 @@
 
 <script>
 export default {
+  data() {
+    return {
+      ready: false
+    };
+  },
   methods: {
     beforeEnter(el) {
       this.$velocity(el, { opacity: 0 }, { duration: 0 });
+      this.ready = true;
     },
     enter(el, done) {
       this.$velocity(el, { opacity: 1 }, { delay: 1000, done: done });
