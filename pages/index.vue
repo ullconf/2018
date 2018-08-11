@@ -1,7 +1,6 @@
 <template>
   <section class="container">
     <div>
-      <ull-characters></ull-characters>
       <app-logo/>
       <transition appear
         v-on:before-enter="beforeEnter"
@@ -30,6 +29,7 @@
         </div>
       </transition>
     </div>
+    <ull-characters></ull-characters>
   </section>
 </template>
 
