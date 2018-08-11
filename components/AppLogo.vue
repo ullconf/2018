@@ -1,5 +1,5 @@
 <template>
-  <div class="logo-wrapper">
+  <div :class="{'d-none': !ready, 'logo-wrapper': true}">
     <ull-characters v-cloak></ull-characters>
     
     <transition appear
@@ -8,7 +8,7 @@
       v-on:leave="leave"
       v-bind:css="false"
     >
-      <img :class="{'d-none': !ready}" src="~assets/images/Logo.png" width="222">
+      <img src="~assets/images/Logo.png" width="222">
     </transition>
 
   </div>

@@ -5,9 +5,7 @@
     v-on:leave="leave"
     v-bind:css="false"
     appear>
-    <div :class="{'d-none': !ready}">
-      <slot></slot>
-    </div>
+    <slot></slot>
   </transition>
 </template>
 
@@ -18,15 +16,9 @@ export default {
       default: 0
     }
   },
-  data() {
-    return {
-      ready: false
-    };
-  },
   methods: {
     beforeEnter(el) {
       this.$velocity(el, { opacity: 0 }, { duration: 0 });
-      this.ready = true;
     },
     enter(el, done) {
       this.$velocity(
