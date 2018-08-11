@@ -20,7 +20,7 @@
       <div class="links">
         <a
           class="btn btn-success btn-lg"
-          href="https://nuxtjs.org/"
+          href="https://ti.to/ull/2018"
           target="_blank">Tickets</a>
       </div>
     </div>
