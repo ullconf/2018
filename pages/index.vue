@@ -16,13 +16,13 @@
             /ʧɒk <span class="text-danger">ool</span>/ <i>"House of Apple"</i>
           </p>
           <p class="detail">
-            An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <a href="#">Read more here.</a>
+            An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <a href="#"><strong>Read more...</strong></a>
           </p>
           <div class="links">
             <a
-              class="btn btn-success"
+              class="btn btn-success btn-lg"
               href="https://nuxtjs.org/"
-              target="_blank">Get Tickets</a>
+              target="_blank">Tickets</a>
           </div>
         </div>
       </transition>
