@@ -15,6 +15,9 @@
           <p>
             /ʧɒk <span class="text-danger">ool</span>/ <i>"House of Apple"</i>
           </p>
+          <p class="detail">
+            An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <a href="#">Read more here.</a>
+          </p>
           <div class="links">
             <a
               class="btn btn-success"
@@ -47,7 +50,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .container {
   min-height: 100vh;
   display: flex;
@@ -69,6 +72,11 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+
+.detail {
+  width: 20rem;
+  text-align: left;
 }
 
 .links {
