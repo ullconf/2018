@@ -29,18 +29,15 @@
         </div>
       </transition>
     </div>
-    <ull-characters></ull-characters>
   </section>
 </template>
 
 <script>
 import AppLogo from "~/components/AppLogo.vue";
-import UllCharacters from "~/components/UllCharacters.vue";
 
 export default {
   components: {
-    AppLogo,
-    UllCharacters
+    AppLogo
   },
 
   methods: {

@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="logo-wrapper">
+    <ull-characters></ull-characters>
     <transition appear
       v-on:before-enter="beforeEnter"
       v-on:enter="enter"
@@ -12,7 +13,9 @@
 </template>
 
 <script>
+import UllCharacters from "~/components/UllCharacters.vue";
 export default {
+  components: { UllCharacters },
   methods: {
     beforeEnter(el) {
       this.$velocity(el, { translateY: -1000, rotateZ: -180 }, { duration: 0 });
@@ -30,3 +33,10 @@ export default {
   }
 };
 </script>
+
+
+<style>
+.logo-wrapper {
+  position: relative;
+}
+</style>
