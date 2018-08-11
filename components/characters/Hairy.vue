@@ -12,11 +12,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "~bootstrap/scss/mixins/breakpoints";
 .hairy {
   position: absolute;
-  left: 10px;
-  top: 101px;
+  left: -30px;
+  top: 71px;
   width: 65px;
+  @include media-breakpoint-up(sm) {
+    width: 130px;
+    left: -250px;
+    top: 241px;
+  }
 }
 </style>

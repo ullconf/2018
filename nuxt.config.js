@@ -1,3 +1,15 @@
+const plugins = [
+  { src: "~plugins/velocity.js", ssr: false },
+  { src: "~plugins/fontawesome.js", ssr: false }
+];
+
+// if (process.env.NODE_ENV != "production") {
+//   plugins.push({
+//     src: "~plugins/dragit.js",
+//     ssr: false
+//   });
+// }
+
 module.exports = {
   /*
   ** Headers of the page
@@ -22,11 +34,19 @@ module.exports = {
   ** Build configuration
   */
   css: [{ src: "~/assets/stylesheets/main.scss", lang: "scss" }],
-  modules: [["bootstrap-vue/nuxt", { css: false }]],
-  plugins: [
-    { src: "~plugins/velocity.js", ssr: false },
-    { src: "~plugins/fontawesome.js", ssr: false }
+  modules: [
+    ["bootstrap-vue/nuxt", { css: false }],
+    [
+      "nuxt-sass-resources-loader",
+      [
+        "~assets/stylesheets/_custom.scss",
+        "bootstrap/scss/_functions.scss",
+        "bootstrap/scss/_variables.scss",
+        "bootstrap/scss/_mixins.scss"
+      ]
+    ]
   ],
+  plugins: plugins,
   build: {
     /*
     ** Run ESLint on save

@@ -12,11 +12,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .dog-beads {
   position: absolute;
-  right: 60px;
-  top: 92px;
-  width: 65px;
+  right: 27px;
+  top: 41px;
+  width: 80px;
+
+  @include media-breakpoint-up(sm) {
+    width: 150px;
+    left: 283px;
+    top: 164px;
+  }
 }
 </style>

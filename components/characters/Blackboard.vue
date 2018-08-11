@@ -12,11 +12,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .blackboard {
   position: absolute;
   margin-left: -25px;
-  top: 60px;
-  width: 50px;
+  top: 10px;
+  width: 40px;
+
+  @include media-breakpoint-up(sm) {
+    width: 90px;
+    left: 215px;
+    top: -61px;
+  }
 }
 </style>

@@ -12,11 +12,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .wheelchair-door {
   position: absolute;
-  right: 25px;
-  top: 20px;
+  right: -18px;
+  top: -13px;
   width: 65px;
+
+  @include media-breakpoint-up(sm) {
+    width: 130px;
+    left: 311px;
+    top: 14px;
+  }
 }
 </style>

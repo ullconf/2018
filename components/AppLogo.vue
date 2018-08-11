@@ -1,6 +1,7 @@
 <template>
   <div class="logo-wrapper">
     <ull-characters></ull-characters>
+    
     <transition appear
       v-on:before-enter="beforeEnter"
       v-on:enter="enter"
@@ -9,13 +10,15 @@
     >
       <img src="~assets/images/Logo.png" width="222">
     </transition>
+
   </div>
 </template>
 
 <script>
+import draggable from "vuedraggable";
 import UllCharacters from "~/components/UllCharacters.vue";
 export default {
-  components: { UllCharacters },
+  components: { UllCharacters, draggable },
   methods: {
     beforeEnter(el) {
       this.$velocity(el, { translateY: -1000, rotateZ: -180 }, { duration: 0 });
@@ -29,7 +32,11 @@ export default {
       this.$velocity(el, { rotateZ: 0 }, { duration: 1000, easing: "in-out" });
       this.$velocity(el, { scale: 0.5, translateY: 50 }, { done: done });
     },
-    leave() {}
+    leave() {},
+    moving() {
+      console.log("moving");
+      return true;
+    }
   }
 };
 </script>

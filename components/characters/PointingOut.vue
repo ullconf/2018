@@ -12,11 +12,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .pointing-out {
   position: absolute;
-  margin-left: -25px;
-  top: 20px;
+  margin-left: -30px;
+  top: -60px;
   width: 50px;
+
+  @include media-breakpoint-up(sm) {
+    width: 110px;
+    left: 40px;
+    top: -59px;
+  }
 }
 </style>

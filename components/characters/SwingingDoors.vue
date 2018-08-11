@@ -12,11 +12,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .swinging-doors {
   position: absolute;
-  left: 20px;
-  top: 20px;
+  left: -20px;
+  top: -23px;
   width: 65px;
+
+  @include media-breakpoint-up(sm) {
+    width: 130px;
+    left: -167px;
+    top: 4px;
+  }
 }
 </style>

@@ -12,11 +12,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .wrangler {
   position: absolute;
-  left: 60px;
-  top: 92px;
+  left: 35px;
+  top: 43px;
   width: 65px;
+
+  @include media-breakpoint-up(sm) {
+    width: 130px;
+    left: -123px;
+    top: 171px;
+  }
 }
 </style>

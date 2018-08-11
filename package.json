@@ -20,7 +20,10 @@
     "animateplus": "^2.1.1",
     "bootstrap-vue": "^2.0.0-rc.11",
     "nuxt": "^1.0.0",
-    "velocity-animate": "^1.5.2"
+    "nuxt-sass-resources-loader": "^2.0.3",
+    "velocity-animate": "^1.5.2",
+    "vue-drag-it-dude": "^1.1.1",
+    "vuedraggable": "^2.16.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
