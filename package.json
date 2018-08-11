@@ -22,8 +22,7 @@
     "nuxt": "^1.0.0",
     "nuxt-sass-resources-loader": "^2.0.3",
     "velocity-animate": "^1.5.2",
-    "vue-drag-it-dude": "^1.1.1",
-    "vuedraggable": "^2.16.0"
+    "vue-style-loader": "^4.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
@@ -32,7 +31,6 @@
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
     "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
-    "vue-style-loader": "^4.1.1"
+    "sass-loader": "^7.1.0"
   }
 }

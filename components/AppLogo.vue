@@ -15,10 +15,9 @@
 </template>
 
 <script>
-import draggable from "vuedraggable";
 import UllCharacters from "~/components/UllCharacters.vue";
 export default {
-  components: { UllCharacters, draggable },
+  components: { UllCharacters },
   data() {
     return {
       ready: false
