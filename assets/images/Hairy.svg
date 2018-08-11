@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="268px" height="289px" viewBox="0 0 268 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="294px" height="289px" viewBox="0 0 294 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
     <title>Hairy</title>
     <desc>Created with Sketch.</desc>
@@ -91,8 +91,8 @@
         <polygon id="path-118" points="0.06 0.530001032 71.2212953 0.530001032 71.2212953 99.087 0.06 99.087"></polygon>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Final-Version" transform="translate(0.000000, -531.000000)">
-            <g id="Hairy" transform="translate(-26.000000, 531.000000)">
+        <g id="Final-Version" transform="translate(-57.000000, -969.000000)">
+            <g id="Hairy" transform="translate(57.000000, 969.000000)">
                 <g id="Shadow-Paths-Copy-5" opacity="0.39791278" style="mix-blend-mode: multiply;">
                     <use fill-opacity="0.17" fill="url(#pattern-3)" xlink:href="#path-2"></use>
                     <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
