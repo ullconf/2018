@@ -2,18 +2,27 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h1 class="title">
-        Teach Úll
-      </h1>
-      <p>
-        /ʧɒk/ <span class="text-danger">ool</span>
-      </p>
-      <div class="links">
-        <a
-          class="btn btn-success"
-          href="https://nuxtjs.org/"
-          target="_blank">Get Tickets</a>
-      </div>
+      <transition appear
+        v-on:before-enter="beforeEnter"
+        v-on:enter="enter"
+        v-on:leave="leave"
+        v-bind:css="false"
+      >
+        <div>
+          <h1 class="title">
+            Teach Úll
+          </h1>
+          <p>
+            /ʧɒk <span class="text-danger">ool</span>/ <i>"House of Apple"</i>
+          </p>
+          <div class="links">
+            <a
+              class="btn btn-success"
+              href="https://nuxtjs.org/"
+              target="_blank">Get Tickets</a>
+          </div>
+        </div>
+      </transition>
     </div>
   </section>
 </template>
@@ -24,6 +33,16 @@ import AppLogo from "~/components/AppLogo.vue";
 export default {
   components: {
     AppLogo
+  },
+
+  methods: {
+    beforeEnter(el) {
+      this.$velocity(el, { opacity: 0 }, { duration: 0 });
+    },
+    enter(el, done) {
+      this.$velocity(el, { opacity: 1 }, { delay: 500, done: done });
+    },
+    leave() {}
   }
 };
 </script>
