@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+      <ull-characters></ull-characters>
       <app-logo/>
       <transition appear
         v-on:before-enter="beforeEnter"
@@ -15,6 +16,8 @@
           <p>
             /ʧɒk <span class="text-danger">ool</span>/ <i>"House of Apple"</i>
           </p>
+          <p><font-awesome-icon icon="calendar" /> November 13+14, 2018</p>
+          <p><font-awesome-icon icon="map-marker-question" /> Somewhere in Ireland</p>
           <p class="detail">
             An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <a href="#"><strong>Read more...</strong></a>
           </p>
@@ -32,10 +35,12 @@
 
 <script>
 import AppLogo from "~/components/AppLogo.vue";
+import UllCharacters from "~/components/UllCharacters.vue";
 
 export default {
   components: {
-    AppLogo
+    AppLogo,
+    UllCharacters
   },
 
   methods: {
@@ -43,7 +48,7 @@ export default {
       this.$velocity(el, { opacity: 0 }, { duration: 0 });
     },
     enter(el, done) {
-      this.$velocity(el, { opacity: 1 }, { delay: 500, done: done });
+      this.$velocity(el, { opacity: 1 }, { delay: 1000, done: done });
     },
     leave() {}
   }

@@ -15,10 +15,19 @@
 export default {
   methods: {
     beforeEnter(el) {
-      this.$velocity(el, { translateY: 1000 }, { duration: 0 });
+      this.$velocity(el, { translateY: -1000, rotateZ: -180 }, { duration: 0 });
     },
     enter(el, done) {
-      this.$velocity(el, { translateY: 0 }, { done: done });
+      this.$velocity(
+        el,
+        { translateY: 0 },
+        { easing: [500, 20], duration: 1500 }
+      );
+      this.$velocity(
+        el,
+        { rotateZ: 0 },
+        { duration: 1000, easing: "in-out", done: done }
+      );
     },
     leave() {}
   }

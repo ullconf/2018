@@ -23,7 +23,10 @@ module.exports = {
   */
   css: [{ src: "~/assets/stylesheets/main.scss", lang: "scss" }],
   modules: [["bootstrap-vue/nuxt", { css: false }]],
-  plugins: [{ src: "~plugins/velocity.js", ssr: false }],
+  plugins: [
+    { src: "~plugins/velocity.js", ssr: false },
+    { src: "~plugins/fontawesome.js", ssr: false }
+  ],
   build: {
     /*
     ** Run ESLint on save
