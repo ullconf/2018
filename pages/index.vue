@@ -15,6 +15,12 @@ export default {
   components: {
     AppLogo,
     MainContent
+  },
+
+  head() {
+    return {
+      title: "Úll 2018"
+    };
   }
 };
 </script>
