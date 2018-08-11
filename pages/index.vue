@@ -1,8 +1,8 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-       <main-content />
+      <app-logo v-cloak/>
+      <main-content v-cloak/>
     </div>
   </section>
 </template>

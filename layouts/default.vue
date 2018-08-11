@@ -5,6 +5,10 @@
 </template>
 
 <style>
+[v-cloak] {
+  display: none;
+}
+
 html {
   font-family: "Museo Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;

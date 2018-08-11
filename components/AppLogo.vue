@@ -1,6 +1,6 @@
 <template>
   <div class="logo-wrapper">
-    <ull-characters></ull-characters>
+    <ull-characters v-cloak></ull-characters>
     
     <transition appear
       v-on:before-enter="beforeEnter"
