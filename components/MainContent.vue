@@ -37,11 +37,6 @@ export default {
       ready: false
     };
   },
-  head() {
-    return {
-      title: "Úll 2018: WTF?"
-    };
-  },
   methods: {
     beforeEnter(el) {
       this.$velocity(el, { opacity: 0 }, { duration: 0 });

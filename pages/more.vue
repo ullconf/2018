@@ -12,6 +12,11 @@
 import content from "../markdown/more.md";
 
 export default {
+  head() {
+    return {
+      title: "Úll 2018: WTF?"
+    };
+  },
   computed: {
     content() {
       return content;
