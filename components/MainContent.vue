@@ -15,7 +15,7 @@
       <p><font-awesome-icon :icon="['fas', 'calendar']"></font-awesome-icon> November 13+14, 2018</p>
       <p><font-awesome-icon :icon="['fas', 'map-marker-question']"></font-awesome-icon> Somewhere in Ireland</p>
       <p class="detail">
-        An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <nuxt-link to="/more"><strong>Read more...</strong></nuxt-link>
+        An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <nuxt-link to="/more"><strong>WTF?</strong></nuxt-link>
       </p>
       <div class="links">
         <a

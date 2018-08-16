@@ -30,7 +30,7 @@ export default {
   margin-top: 1.5rem;
 }
 .content {
-  h2 {
+  /deep/ h2 {
     font-size: 1.5rem;
   }
 }
