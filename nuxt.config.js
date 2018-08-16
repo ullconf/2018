@@ -1,5 +1,6 @@
 const plugins = [
   { src: "~plugins/velocity.js", ssr: false },
+  // { src: "~plugins/vue-tito.js", ssr: false },
   { src: "~plugins/fontawesome.js" }
 ];
 
@@ -35,6 +36,7 @@ module.exports = {
   */
   css: [{ src: "~/assets/stylesheets/main.scss", lang: "scss" }],
   modules: [
+    "@nuxtjs/markdownit",
     ["bootstrap-vue/nuxt", { css: false }],
     [
       "nuxt-sass-resources-loader",

@@ -12,7 +12,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .blackboard {
   position: absolute;
   margin-left: -25px;

@@ -10,12 +10,12 @@
         Teach Úll
       </h1>
       <p>
-        /ʧɒk <span class="text-danger">ool</span>/ <i>"House of Apple"</i>
+        /ʧɒk <span class="text-danger">ool</span>/ Irish <i>"House of Apple"</i>
       </p>
       <p><font-awesome-icon :icon="['fas', 'calendar']"></font-awesome-icon> November 13+14, 2018</p>
       <p><font-awesome-icon :icon="['fas', 'map-marker-question']"></font-awesome-icon> Somewhere in Ireland</p>
       <p class="detail">
-        An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <a href="#"><strong>Read more...</strong></a>
+        An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why. <nuxt-link to="/more"><strong>Read more...</strong></nuxt-link>
       </p>
       <div class="links">
         <a
@@ -29,11 +29,17 @@
 
 <script>
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
 export default {
   components: { FontAwesomeIcon },
   data() {
     return {
       ready: false
+    };
+  },
+  head() {
+    return {
+      title: "Úll 2018: WTF?"
     };
   },
   methods: {
