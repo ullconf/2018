@@ -16,7 +16,7 @@ export default {
 .pointing-out {
   position: absolute;
   margin-left: -80px;
-  top: -10px;
+  top: 30px;
   width: 50px;
 
   @include media-breakpoint-up(sm) {

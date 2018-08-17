@@ -16,7 +16,7 @@ export default {
 .blackboard {
   position: absolute;
   margin-left: 25px;
-  top: -8px;
+  top: 32px;
   width: 40px;
 
   @include media-breakpoint-up(sm) {
