@@ -15,7 +15,7 @@
       <p><font-awesome-icon :icon="['fas', 'calendar']"></font-awesome-icon> November 13+14, 2018</p>
       <p><font-awesome-icon :icon="['fas', 'map-marker-question']"></font-awesome-icon> Somewhere in Ireland</p>
       <p class="detail">
-        An conference for folks who are drawn to the point where the the humanities and the sciences intersect.
+        An conference that sits where the humanities and the sciences intersect.
       </p>
 
       <p class="detail">
