@@ -1,7 +1,6 @@
 <template>
   <div :class="{'d-none': !ready, 'logo-wrapper': true}">
-    <div class="gradient left"></div>
-    <div class="trapezoid"></div>
+    <gradient-bg></gradient-bg>
     <ull-characters v-cloak></ull-characters>
     
     <transition appear
@@ -17,9 +16,10 @@
 </template>
 
 <script>
+import GradientBg from "~/components/GradientBg.vue";
 import UllCharacters from "~/components/UllCharacters.vue";
 export default {
-  components: { UllCharacters },
+  components: { GradientBg, UllCharacters },
   data() {
     return {
       ready: false
@@ -41,7 +41,6 @@ export default {
     },
     leave() {},
     moving() {
-      console.log("moving");
       return true;
     }
   }
@@ -52,46 +51,5 @@ export default {
 <style>
 .logo-wrapper {
   position: relative;
-}
-.gradient {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+27,d8779c+66&0.13+0,1+100 */
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+27,d8779c+100&0.13+0,0.18+100 */
-  background: -moz-linear-gradient(
-    top,
-    rgba(255, 255, 255, 0.13) 0%,
-    rgba(255, 255, 255, 0.14) 27%,
-    rgba(216, 119, 156, 0.18) 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
-    top,
-    rgba(255, 255, 255, 0.13) 0%,
-    rgba(255, 255, 255, 0.14) 27%,
-    rgba(216, 119, 156, 0.18) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 0.13) 0%,
-    rgba(255, 255, 255, 0.14) 27%,
-    rgba(216, 119, 156, 0.18) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21ffffff', endColorstr='#2ed8779c',GradientType=0 ); /* IE6-9 */
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  height: 341px;
-  z-index: -2;
-}
-.trapezoid {
-  border-bottom: 100px solid white;
-  border-left: 679.5px solid transparent;
-  border-right: 679.5px solid transparent;
-  height: 0;
-  width: 100%;
-  position: fixed;
-  top: 241px;
-  right: 0;
-  left: 0;
-  z-index: -1;
 }
 </style>
