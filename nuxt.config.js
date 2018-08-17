@@ -46,6 +46,12 @@ module.exports = {
         "bootstrap/scss/_variables.scss",
         "bootstrap/scss/_mixins.scss"
       ]
+    ],
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-79039631-2"
+      }
     ]
   ],
   plugins: plugins,
