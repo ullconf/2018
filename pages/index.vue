@@ -3,6 +3,13 @@
     <div>
       <app-logo v-cloak/>
       <main-content v-cloak/>
+      <div class="footer">
+        <nuxt-link to="/who">Who?</nuxt-link>
+
+        <nuxt-link to="/code">Code of Conduct</nuxt-link>
+
+        <nuxt-link to="/accessibility">Accessibility</nuxt-link>
+      </div>
     </div>
   </section>
 </template>
@@ -32,5 +39,11 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.footer {
+  margin-top: 1.5rem;
+}
+.footer a {
+  padding: 0.5rem;
 }
 </style>
