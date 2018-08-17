@@ -34,8 +34,19 @@
       <h2>Thanks</h2>
       <p>Resources from <a href="https://ramp-up.me/en">ramp-up.me</a> were used to compile this&nbsp;list.</p>
     </div>
+    <page-footer />
   </section>
 </template>
+
+<script>
+import PageFooter from "~/components/Footer.vue";
+
+export default {
+  components: {
+    PageFooter
+  }
+};
+</script>
 
 <style>
 .banner {

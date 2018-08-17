@@ -47,8 +47,19 @@
       <p>This policy is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a> license.</p>
       <p>We encourage other events to adopt (and enforce) similar policies by using and remixing&nbsp;ours.</p>
     </div>
+    <page-footer />
   </section>
 </template>
+
+<script>
+import PageFooter from "~/components/Footer.vue";
+
+export default {
+  components: {
+    PageFooter
+  }
+};
+</script>
 
 <style>
 .banner {

@@ -14,8 +14,19 @@
       <h2>Aoife</h2>
       <p>Aoife Reaper-Reynolds joined the Úll team in 2016 to help with logistics, but she brought her very own stamp and style to the events she co-produced. Aoife specialises in organising retreats that nourish the "body, mind and soul".</p>
     </div>
+    <page-footer></page-footer>
   </section>
 </template>
+
+<script>
+import PageFooter from "~/components/Footer.vue";
+
+export default {
+  components: {
+    PageFooter
+  }
+};
+</script>
 
 <style>
 .banner {

@@ -6,22 +6,18 @@
     <div class="content col-8 offset-2" v-html="content">
     </div>
     <div class="text-center links">
-      <a class="btn btn-success btn-lg"
+      <a
+        class="btn btn-success btn-lg"
         href="https://ti.to/ull/2018"
         target="_blank">Buy Tickets</a>
-    </div>
-    <page-footer></page-footer>
+      </div>
   </section>
 </template>
 
 <script>
-import content from "../markdown/more.md";
-import PageFooter from "~/components/Footer.vue";
+import content from "../markdown/pricey.md";
 
 export default {
-  components: {
-    PageFooter
-  },
   head() {
     return {
       title: "Úll 2018: WTF?"

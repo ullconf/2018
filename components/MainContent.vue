@@ -9,7 +9,7 @@
       <h1 class="title">
         Teach Úll
       </h1>
-      <p>
+      <p class="legend">
         /ʧɒk <span class="text-danger">ool</span>/ Irish <i>"House of Apple"</i>
       </p>
       <p class="date"><font-awesome-icon :icon="['fas', 'calendar']"></font-awesome-icon> November 13+14, 2018</p>
@@ -23,8 +23,7 @@
       </p>
       <div class="links">
         <nuxt-link to="/more"
-          class="btn btn-outline-primary btn-lg"
-          target="_blank">Find out more</nuxt-link>
+          class="btn btn-outline-primary btn-lg">Find out more</nuxt-link>
 
         <a
           class="btn btn-success btn-lg"
@@ -60,24 +59,32 @@ export default {
 
 <style lang="scss" scoped>
 .title {
+  color: #484848;
   display: block;
   font-weight: 500;
   font-size: 2.5rem;
   margin-top: 1rem;
 }
 
+.legend {
+  opacity: 0.75;
+}
+
 .date,
 .venue {
+  color: #4e4e4e;
   font-size: 1.2rem;
 }
 
 .subtitle {
+  color: #424242;
   width: 20rem;
   text-align: left;
   font-size: 1.5rem;
 }
 
 .detail {
+  color: #656565;
   width: 20rem;
   text-align: left;
 }
