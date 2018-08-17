@@ -57,6 +57,11 @@ import PageFooter from "~/components/Footer.vue";
 export default {
   components: {
     PageFooter
+  },
+  head() {
+    return {
+      title: "Úll 2018 Code of Conduct"
+    };
   }
 };
 </script>

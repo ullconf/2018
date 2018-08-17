@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: "Úll 2018: WTF?"
+      title: "Úll 2018: Too Expensive?"
     };
   },
   computed: {

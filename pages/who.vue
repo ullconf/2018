@@ -22,6 +22,11 @@
 import PageFooter from "~/components/Footer.vue";
 
 export default {
+  head() {
+    return {
+      title: "Úll 2018: Who?"
+    };
+  },
   components: {
     PageFooter
   }
