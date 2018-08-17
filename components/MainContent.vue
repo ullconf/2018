@@ -24,7 +24,6 @@
       <div class="links">
         <nuxt-link to="/more"
           class="btn btn-outline-primary btn-lg"
-          href="https://ti.to/ull/2018"
           target="_blank">Find out more</nuxt-link>
 
         <a

@@ -5,6 +5,12 @@
     </div>
     <div class="content col-8 offset-2" v-html="content">
     </div>
+    <div class="text-center links">
+      <a
+        class="btn btn-success btn-lg"
+        href="https://ti.to/ull/2018"
+        target="_blank">Buy Tickets</a>
+      </div>
   </section>
 </template>
 
@@ -33,5 +39,8 @@ export default {
   /deep/ h2 {
     font-size: 1.5rem;
   }
+}
+.links {
+  margin-bottom: 1.5rem;
 }
 </style>
