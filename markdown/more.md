@@ -26,11 +26,15 @@ It means “Apple house” in Irish. But conveniently it’s also the English wo
 
 ##  When will tickets be on sale?
 
-August 17 until August 24.
+August 18 until August 25.
 
 ##  How much will tickets be?
 
-€1499
+€1499. This includes transport to the venue from Dublin, all meals, and two nights of very nice accommodation. It’s very much an "all-inclusive" price.
+
+##  That’s very expensive. Anything you can do about that?
+
+See the [Lottery](/pricey)
 
 ## Can we bring kids?
 
