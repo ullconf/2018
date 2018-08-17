@@ -5,7 +5,7 @@
     v-on:leave="leave"
     v-bind:css="false"
   >
-    <div :class="{'d-none': !ready}">
+    <div :class="{'ready': ready, 'main': true}">
       <h1 class="title">
         Teach Úll
       </h1>
@@ -58,6 +58,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.main {
+  display: none;
+  &.ready {
+    display: block;
+  }
+}
 .title {
   color: #484848;
   display: block;
