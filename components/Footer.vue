@@ -41,7 +41,7 @@ export default {
       this.ready = true;
     },
     enter(el, done) {
-      this.$velocity(el, { opacity: 1 }, { done: done });
+      this.$velocity(el, { opacity: 1 }, { delay: 2000, done: done });
     },
     leave() {}
   }
