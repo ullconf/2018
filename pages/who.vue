@@ -4,7 +4,7 @@
       <img src="~assets/images/Hairy.svg">
       <img src="~assets/images/Wrangler.svg">
     </div>
-    <div class="content col-8 offset-2">
+    <div class="content col-sm-8 offset-sm-2">
       <h1>Who?</h1>
       <p>Úll 2018 will be organised by <a href="https://twitter.com/paulca">Paul Campbell</a> and <a href="https://twitter.com/aoiferr">Aoife Reaper-Reynolds</a>.</p>
 

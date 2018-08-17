@@ -3,7 +3,7 @@
     <div class="blackboard text-center">
       <img class="blackboard" src="~assets/images/Blackboard.svg">
     </div>
-    <div class="content col-8 offset-2" v-html="content">
+    <div class="content col-sm-8 offset-sm-2" v-html="content">
     </div>
     <div class="text-center links">
       <a class="btn btn-success btn-lg"

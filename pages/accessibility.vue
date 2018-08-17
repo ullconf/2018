@@ -3,7 +3,7 @@
     <div class="text-center banner">
       <img src="~assets/images/Wheelchair Door.svg">
     </div>
-    <div class="content col-8 offset-2">
+    <div class="content col-sm-8 offset-sm-2">
       <h1>Accessibility at Úll</h1>
       <p><a href="/accessibility.txt" target="_blank">[Plain text version]</a></p>
       <p>Úll Conferences Limited is dedicated to providing an inclusive event for all of our participants. Given the nature of this year’s event, however, we do ask that individuals with specific accessibility needs make them known ahead of time. Please contact us at <a href="mailto:feedback@ull.ie">feedback@ull.ie</a>.</p>

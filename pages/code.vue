@@ -3,7 +3,7 @@
     <div class="text-center banner">
       <img src="~assets/images/Pointing Out.svg">
     </div>
-    <div class="content col-8 offset-2">
+    <div class="content col-sm-8 offset-sm-2">
       <h1>Code of Conduct</h1>
       <p>Everyone participating in any Úll event is required to agree to the following Code of Conduct. This includes all attendees, speakers, performers, patrons (sponsors), volunteers, and&nbsp;staff.</p>
       <p>Úll Conferences Limited is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, mental illness, neurotype, physical appearance, body, age, race, ethnicity, nationality, language, or religion. We do not tolerate harassment of participants in any&nbsp;form.</p>
