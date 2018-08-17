@@ -1,5 +1,5 @@
 <template>
-  <div :class="{'d-none': !ready, 'logo-wrapper': true}">
+  <div :class="{'ready': ready, 'logo-wrapper': true}">
     <gradient-bg></gradient-bg>
     <ull-characters v-cloak></ull-characters>
     
@@ -48,8 +48,13 @@ export default {
 </script>
 
 
-<style>
+<style scoped lang="scss">
 .logo-wrapper {
+  display: none;
   position: relative;
+
+  &.ready {
+    display: block;
+  }
 }
 </style>
