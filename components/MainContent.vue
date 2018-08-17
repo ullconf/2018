@@ -15,11 +15,11 @@
       <p><font-awesome-icon :icon="['fas', 'calendar']"></font-awesome-icon> November 13+14, 2018</p>
       <p><font-awesome-icon :icon="['fas', 'map-marker-question']"></font-awesome-icon> Somewhere in Ireland</p>
       <p class="detail">
-        An experimental event for those folks who are drawn to the intersection of the humanities and the sciences, but perhaps aren’t quite sure why.
+        An conference for folks who are drawn to the point where the the humanities and the sciences intersect.
       </p>
 
       <p class="detail">
-        Tickets will be on sale for one week only, and the conference designed around those who buy tickets. <nuxt-link to="/more"><strong>Find out more...</strong></nuxt-link>
+        Tickets will be on sale for one week only. The conference will be designed around those who buy tickets. <nuxt-link to="/more"><strong>Find out more...</strong></nuxt-link>
       </p>
       <div class="links">
         <a
