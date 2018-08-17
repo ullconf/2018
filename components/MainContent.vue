@@ -19,8 +19,7 @@
       </p>
 
       <p class="detail">
-        Tickets will be on sale for one week only, and then the conference will be designed for and around those who buy tickets.
-        <nuxt-link to="/more" class="pull-right"><strong>Find out more...</strong></nuxt-link>
+        Tickets will be on sale for one week only, and the conference designed around those who buy tickets. <nuxt-link to="/more"><strong>Find out more...</strong></nuxt-link>
       </p>
       <div class="links">
         <a
