@@ -21,8 +21,8 @@ export default {
 
   @include media-breakpoint-up(sm) {
     width: 150px;
-    left: 283px;
-    top: 164px;
+    left: 363px;
+    top: 217px;
   }
 }
 </style>

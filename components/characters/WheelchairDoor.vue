@@ -20,9 +20,9 @@ export default {
   width: 65px;
 
   @include media-breakpoint-up(sm) {
-    width: 130px;
-    left: 311px;
-    top: 14px;
+    width: 140px;
+    left: 493px;
+    top: 74px;
   }
 }
 </style>
