@@ -11,13 +11,18 @@
         href="https://ti.to/úll/2018/with/diversity-ticket-96c96be4-fd66-4ebb-afd3-bea1473debd8"
         target="_blank">Enter the Lottery</a>
       </div>
+    <page-footer />
   </section>
 </template>
 
 <script>
 import content from "../markdown/pricey.md";
+import PageFooter from "~/components/Footer.vue";
 
 export default {
+  components: {
+    PageFooter
+  },
   head() {
     return {
       title: "Úll 2018: WTF?"
