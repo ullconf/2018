@@ -16,7 +16,7 @@ export default {
 .georgian-butler {
   position: absolute;
   right: -31px;
-  top: 71px;
+  top: 231px;
   width: 52px;
 
   @include media-breakpoint-up(sm) {

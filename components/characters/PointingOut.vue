@@ -15,8 +15,8 @@ export default {
 <style lang="scss">
 .pointing-out {
   position: absolute;
-  margin-left: -30px;
-  top: -60px;
+  margin-left: -80px;
+  top: -10px;
   width: 50px;
 
   @include media-breakpoint-up(sm) {

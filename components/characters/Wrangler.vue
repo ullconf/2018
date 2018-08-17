@@ -15,8 +15,8 @@ export default {
 <style lang="scss">
 .wrangler {
   position: absolute;
-  left: 35px;
-  top: 43px;
+  left: 5px;
+  top: 143px;
   width: 65px;
 
   @include media-breakpoint-up(sm) {

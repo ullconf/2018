@@ -17,7 +17,7 @@ export default {
 .hairy {
   position: absolute;
   left: -30px;
-  top: 71px;
+  top: 231px;
   width: 65px;
   @include media-breakpoint-up(sm) {
     width: 130px;

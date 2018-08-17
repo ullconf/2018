@@ -15,8 +15,8 @@ export default {
 <style lang="scss">
 .dog-beads {
   position: absolute;
-  right: 27px;
-  top: 41px;
+  right: 7px;
+  top: 141px;
   width: 80px;
 
   @include media-breakpoint-up(sm) {

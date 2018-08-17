@@ -15,8 +15,8 @@ export default {
 <style lang="scss">
 .swinging-doors {
   position: absolute;
-  left: -20px;
-  top: -23px;
+  left: -30px;
+  top: 41px;
   width: 65px;
 
   @include media-breakpoint-up(sm) {

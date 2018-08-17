@@ -1,5 +1,5 @@
 <template>
-  <div class="gradient-bg">
+  <div class="gradient-bg" v-resize:debounce="onResize">
     
     <transition appear
       v-on:before-enter="gradientBeforeEnter"
@@ -15,14 +15,28 @@
       v-on:leave="leave"
       v-bind:css="false"
     >
-      <div class="trapezoid"></div>
+      <div ref="trapezoid" class="trapezoid"></div>
     </transition>
   </div>
 </template>
 
 <script>
+import resize from "vue-resize-directive";
 export default {
+  directives: {
+    resize
+  },
   methods: {
+    onResize() {
+      console.log(
+        "resizing!",
+        window.innerWidth,
+        this.$refs.trapezoid.style.borderLeftWidth
+      );
+      this.$refs.trapezoid.style.borderLeftWidth = `${window.innerWidth / 2}px`;
+      this.$refs.trapezoid.style.borderRightWidth = `${window.innerWidth /
+        2}px`;
+    },
     gradientBeforeEnter(el) {
       this.$velocity(
         el,

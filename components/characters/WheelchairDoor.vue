@@ -15,8 +15,8 @@ export default {
 <style lang="scss">
 .wheelchair-door {
   position: absolute;
-  right: -18px;
-  top: -13px;
+  right: -22px;
+  top: 49px;
   width: 65px;
 
   @include media-breakpoint-up(sm) {
