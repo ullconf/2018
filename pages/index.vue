@@ -9,6 +9,13 @@
         <nuxt-link to="/code">Code of Conduct</nuxt-link>
 
         <nuxt-link to="/accessibility">Accessibility</nuxt-link>
+      <br>
+        <a href="http://2012.ull.ie" target="_new">2012</a>
+        <a href="http://2013.ull.ie" target="_new">2013</a>
+        <a href="http://2014.ull.ie" target="_new">2014</a>
+        <a href="http://2015.ull.ie" target="_new">2015</a>
+        <a href="http://2016.ull.ie" target="_new">2016</a>
+        <a href="http://2017.ull.ie" target="_new">2017</a>
       </div>
     </div>
   </section>

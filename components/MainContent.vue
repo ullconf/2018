@@ -12,20 +12,25 @@
       <p>
         /ʧɒk <span class="text-danger">ool</span>/ Irish <i>"House of Apple"</i>
       </p>
-      <p><font-awesome-icon :icon="['fas', 'calendar']"></font-awesome-icon> November 13+14, 2018</p>
-      <p><font-awesome-icon :icon="['fas', 'map-marker-question']"></font-awesome-icon> Somewhere in Ireland</p>
-      <p class="detail">
-        An conference that sits where the humanities and the sciences intersect.
+      <p class="date"><font-awesome-icon :icon="['fas', 'calendar']"></font-awesome-icon> November 13+14, 2018</p>
+      <p class="venue"><font-awesome-icon :icon="['fas', 'map-marker-question']"></font-awesome-icon> Somewhere in Ireland</p>
+      <p class="subtitle">
+        A conference that sits where the humanities and the sciences intersect.
       </p>
 
       <p class="detail">
-        Tickets will be on sale for one week only. The conference will be designed around those who buy tickets. <nuxt-link to="/more"><strong>Find out more...</strong></nuxt-link>
+        Tickets will be on sale for one week only. The conference will be designed around those who buy tickets.
       </p>
       <div class="links">
+        <nuxt-link to="/more"
+          class="btn btn-outline-primary btn-lg"
+          href="https://ti.to/ull/2018"
+          target="_blank">Find out more</nuxt-link>
+
         <a
           class="btn btn-success btn-lg"
           href="https://ti.to/ull/2018"
-          target="_blank">Tickets</a>
+          target="_blank">Buy Tickets</a>
       </div>
     </div>
   </transition>
@@ -54,20 +59,23 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 .title {
   display: block;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
 }
 
+.date,
+.venue {
+  font-size: 1.2rem;
+}
+
 .subtitle {
-  font-weight: 500;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+  width: 20rem;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 .detail {
@@ -77,5 +85,8 @@ export default {
 
 .links {
   padding-top: 15px;
+  .btn:nth-child(1) {
+    margin-right: 1rem;
+  }
 }
 </style>
