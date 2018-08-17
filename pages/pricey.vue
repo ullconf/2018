@@ -1,15 +1,15 @@
 <template>
   <section class="container">
     <div class="blackboard text-center">
-      <img class="blackboard" src="~assets/images/Blackboard.svg">
+      <img src="~assets/images/GeorgianButler.svg">
     </div>
     <div class="content col-8 offset-2" v-html="content">
     </div>
     <div class="text-center links">
       <a
         class="btn btn-success btn-lg"
-        href="https://ti.to/ull/2018"
-        target="_blank">Buy Tickets</a>
+        href="https://ti.to/úll/2018/with/diversity-ticket-96c96be4-fd66-4ebb-afd3-bea1473debd8"
+        target="_blank">Enter the Lottery</a>
       </div>
   </section>
 </template>

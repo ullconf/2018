@@ -1,5 +1,7 @@
 <template>
   <div class="footer">
+  <nuxt-link class="pricey" to="/pricey">Too expensive?</nuxt-link>
+  <br>
     <nuxt-link class="primary" to="/">🏠</nuxt-link>
 
     <nuxt-link class="primary" to="/who">Who?</nuxt-link>
@@ -32,6 +34,10 @@
 
     &.primary {
       color: #aaa;
+    }
+
+    &.pricey {
+      color: #4a4242;
     }
   }
   a:active,

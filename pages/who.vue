@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div class="text-center banner">
-      <img src="~assets/images/GeorgianButler.svg">
+      <img src="~assets/images/Hairy.svg">
       <img src="~assets/images/Wrangler.svg">
     </div>
     <div class="content col-8 offset-2">
