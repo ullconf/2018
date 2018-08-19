@@ -24,6 +24,10 @@ Sort of, except that rather than selling a conference concept and setting a quot
 
 It means “Apple house” in Irish. But conveniently it’s also the English word “teach”, and conferences are all about learning.
 
+## Isn’t Úll supposed to be an Apple conference?
+
+Yes, but Úll was originally conceived as a conference about "what can we learn about Apple"? The principle was to try to design a conference inspired by the way that Apple design products. You know how you know that you’ll almost certainly buy the next iPhone when it comes out (and fair enough if not)... that’s the piece of Apple that this iteration of Úll is based on.
+
 ##  When will tickets be on sale?
 
 August 18 until August 25.
