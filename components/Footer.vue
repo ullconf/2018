@@ -24,16 +24,30 @@
         <a href="http://2015.ull.ie" target="_new">2015</a>
         <a href="http://2016.ull.ie" target="_new">2016</a>
         <a href="http://2017.ull.ie" target="_new">2017</a>
+      <br>
+      <a href="https://github.com/ullconf/2018" target="_new"><font-awesome-icon :icon="faGithub"></font-awesome-icon></a>
+      <a href="https://twitter.com/ullconf" target="_new"><font-awesome-icon :icon="faTwitter"></font-awesome-icon></a>
     </div>
   </transition>
 </template>
 
 <script>
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 export default {
+  components: { FontAwesomeIcon },
   data() {
     return {
       ready: false
     };
+  },
+  computed: {
+    faGithub() {
+      return faGithub;
+    },
+    faTwitter() {
+      return faTwitter;
+    }
   },
   methods: {
     beforeEnter(el) {
