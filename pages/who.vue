@@ -15,7 +15,7 @@
       <p>Aoife Reaper-Reynolds joined the Úll team in 2016 to help with logistics, but she brought her very own stamp and style to the events she co-produced. Aoife specialises in organising retreats that nourish the "body, mind and soul".</p>
 
       <h3>Who designed the beautiful illustrations?</h3>
-      <p>The characters, illustrations and concepts for this year’s conference were designed and illustrated by the talented <a href="https://twitter.com/illustratedicon">Cian Walsh</a> of <a href="http://www.afterglow.ie">Afterglow</a>. At one point, Cian’s designs powered all of the cool indie Mac software in existence. He is now working fulltime on <a href="https://www.mux.ie">MUX</a>, about which he gave a compelling talk at Úll <a href="http://2017.ull.ie/presenters.html">last year</a></p>
+      <p>The characters, illustrations and concepts for this year’s conference were designed and illustrated by the talented <a href="https://twitter.com/illustratedicon">Cian Walsh</a> of <a href="http://www.afterglow.ie">Afterglow</a>. At one point, Cian’s designs powered all of the cool indie Mac software in existence. He is now working fulltime on <a href="https://www.mux.ie">MUX</a>, about which he gave a compelling talk at Úll <a href="http://2017.ull.ie/presenters.html">last year</a>.</p>
     </div>
     <page-footer></page-footer>
   </section>
