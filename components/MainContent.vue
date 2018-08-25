@@ -19,16 +19,16 @@
       </p>
 
       <p class="detail">
-        Tickets will be on sale for one week only. The conference will be designed around those who buy tickets.
+        Tickets were on sale for one week only August 18–25. No more tickets will be available before the event.
       </p>
       <div class="links">
         <nuxt-link to="/more"
           class="btn btn-outline-primary btn-lg">Find out more</nuxt-link>
 
         <a
-          class="btn btn-success btn-lg"
+          class="btn btn-danger btn-lg"
           href="https://ti.to/ull/2018"
-          target="_blank">Buy Tickets</a>
+          target="_blank">Tickets</a>
       </div>
     </div>
   </transition>

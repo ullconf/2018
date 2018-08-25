@@ -38,7 +38,7 @@ August 18 until August 25.
 
 ##  That’s very expensive. Anything you can do about that?
 
-See the [Lottery](/pricey)
+See the [Lottery](/pricey).
 
 ## Can we bring kids?
 

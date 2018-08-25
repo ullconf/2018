@@ -6,9 +6,9 @@
     <div class="content col-sm-8 offset-sm-2" v-html="content">
     </div>
     <div class="text-center links">
-      <a class="btn btn-success btn-lg"
+      <a class="btn btn-danger btn-lg"
         href="https://ti.to/ull/2018"
-        target="_blank">Buy Tickets</a>
+        target="_blank">Tickets</a>
     </div>
     <page-footer></page-footer>
   </section>
