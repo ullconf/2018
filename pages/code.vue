@@ -37,9 +37,9 @@
       </ul>
       <h2>Consequences</h2>
       <p>Participants asked to stop any harassing behavior are expected to comply&nbsp;immediately.</p>
-      <p>If a participant engages in harassing behavior, Tito organisers may take any action we deem appropriate, up to and including expulsion from all Tito events and identification of the participant as a harasser to other community members or the general&nbsp;public.</p>
+      <p>If a participant engages in harassing behavior, Úll organisers may take any action we deem appropriate, up to and including expulsion from all Úll events and identification of the participant as a harasser to other community members or the general&nbsp;public.</p>
       <h2>Reporting and Enforcement</h2>
-      <p>If you are being harassed during a Tito event, notice that someone else is being harassed, or have any other concerns, please contact any member of our production, volunteer or security team, who will be trained in how to address and report any incidents that attendees bring to their&nbsp;attention.</p>
+      <p>If you are being harassed during a Úll event, notice that someone else is being harassed, or have any other concerns, please contact any member of our production, volunteer or security team, who will be trained in how to address and report any incidents that attendees bring to their&nbsp;attention.</p>
       <p>If the person who is harassing you is a member of staff, they will recuse themselves from handling your&nbsp;incident.</p>
       <p>All reports will be handled in the strictest confidence. We will respond as promptly as we&nbsp;can.</p>
       <h2>Thanks</h2>
