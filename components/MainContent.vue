@@ -19,7 +19,7 @@
       </p>
 
       <p class="detail">
-        Tickets were on sale for one week only August 18–25. No more tickets will be available before the event.
+        Tickets were on sale for one week only August 18–25. No more tickets will be available before the event. Huge thanks to <a href="https://www.macpaw.com">Macpaw</a>, who were kind enough to support the costs of everyone who applied to our <nuxt-link to="/pricey">affordability lottery</nuxt-link>.
       </p>
       <div class="links">
         <nuxt-link to="/more"
